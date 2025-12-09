@@ -1,0 +1,35 @@
+name: maps_codelab
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.14.0
+
+  # ⬇️ 新增的（HTTP 請求 & JSON model）
+  http: ^1.2.1
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # ⬇️ 新增的（自動產生 JSON 相關程式碼）
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/locations.json
