@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "416525599926",
+    "project_id": "quizzes-cfe9f",
+    "storage_bucket": "quizzes-cfe9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416525599926:android:2ba4b33c932a618e995217",
+        "android_client_info": {
+          "package_name": "com.example.quiz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDy-7W5FtWbVqADyYiibuUzIswtqF1zvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
